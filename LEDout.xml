@@ -130,6 +130,19 @@
                                                                                     <field name="NUM">2000</field>
                                                                                   </block>
                                                                                 </value>
+                                                                                <next>
+                                                                                  <block type="movement_forward" id="402">
+                                                                                    <next>
+                                                                                      <block type="robot_delay" id="419" inline="true">
+                                                                                        <value name="DELAY">
+                                                                                          <block type="math_number" id="426">
+                                                                                            <field name="NUM">2000</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
                                                                               </block>
                                                                             </next>
                                                                           </block>
