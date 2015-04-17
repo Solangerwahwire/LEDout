@@ -88,6 +88,46 @@
                                                     <field name="NUM">200</field>
                                                   </block>
                                                 </value>
+                                                <next>
+                                                  <block type="movement_forward" id="239">
+                                                    <next>
+                                                      <block type="robot_delay" id="247" inline="true">
+                                                        <value name="DELAY">
+                                                          <block type="math_number" id="254">
+                                                            <field name="NUM">5000</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="oled_drawtext" id="323">
+                                                            <field name="TEXT">good morning are you having fun so far</field>
+                                                            <next>
+                                                              <block type="robot_delay" id="325" inline="true">
+                                                                <value name="DELAY">
+                                                                  <block type="math_number" id="332">
+                                                                    <field name="NUM">300</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="movement_reverse" id="342">
+                                                                    <next>
+                                                                      <block type="robot_delay" id="344" inline="true">
+                                                                        <value name="DELAY">
+                                                                          <block type="math_number" id="351">
+                                                                            <field name="NUM">5000</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
